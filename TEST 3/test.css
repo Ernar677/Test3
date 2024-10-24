@@ -1,0 +1,65 @@
+.qorap{
+    border: solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 64, 255);
+
+}
+
+.qorap:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+    transform: rotate(180deg);
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+}
+
+.qorap2{
+    border: 2px solid;
+    height: 150px;
+    width: 600px;
+}
+
+.dongelek{
+    border: solid red;
+    background-color: red;
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    animation: MyAnimation 4s infinite;
+}
+
+.zagruska{
+    border: solid slategray;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.zagruska2{
+    border: solid aqua;
+    background-color: aqua;
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 1% ;
+    animation: Anim 2s infinite;
+}
+
+@keyframes Anim{
+    10%{
+        margin-left: 100px
+    }
+    100%{
+        margin-top: 100px;
+    }
+}
+
+@keyframes MyAnimation{
+    0%{
+        margin-left: 10px;
+    }
+    50%{
+        margin-left: 450px;
+    }
+}
